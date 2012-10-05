@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1718BAF916004DE10029B9FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718BAF816004DE10029B9FC /* UIKit.framework */; };
+		1718BAFB16004DE10029B9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718BAFA16004DE10029B9FC /* Foundation.framework */; };
+		1718BAFD16004DE10029B9FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718BAFC16004DE10029B9FC /* CoreGraphics.framework */; };
+		1718BB0316004DE10029B9FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1718BB0116004DE10029B9FC /* InfoPlist.strings */; };
+		1718BB0516004DE10029B9FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718BB0416004DE10029B9FC /* main.m */; };
+		1718BB0916004DE10029B9FC /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718BB0816004DE10029B9FC /* DSAppDelegate.m */; };
+		1718BB1216004E190029B9FC /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718BB1116004E190029B9FC /* DSViewController.m */; };
+		17364E1516006FE700323CDA /* DSDatabaseUtlities.m in Sources */ = {isa = PBXBuildFile; fileRef = 17364E1416006FE700323CDA /* DSDatabaseUtlities.m */; };
+		17364E17160085B000323CDA /* test.db in Resources */ = {isa = PBXBuildFile; fileRef = 17364E16160085B000323CDA /* test.db */; };
+		17364E19160086F600323CDA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17364E18160086F600323CDA /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1718BAF416004DE10029B9FC /* Database Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Database Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1718BAF816004DE10029B9FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1718BAFA16004DE10029B9FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1718BAFC16004DE10029B9FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1718BB0016004DE10029B9FC /* Database Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Database Sample-Info.plist"; sourceTree = "<group>"; };
+		1718BB0216004DE10029B9FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1718BB0416004DE10029B9FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1718BB0616004DE10029B9FC /* Database Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Database Sample-Prefix.pch"; sourceTree = "<group>"; };
+		1718BB0716004DE10029B9FC /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		1718BB0816004DE10029B9FC /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		1718BB1016004E190029B9FC /* DSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSViewController.h; path = Controller/DSViewController.h; sourceTree = "<group>"; };
+		1718BB1116004E190029B9FC /* DSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSViewController.m; path = Controller/DSViewController.m; sourceTree = "<group>"; };
+		17364E0A16005F6500323CDA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		17364E1316006FE700323CDA /* DSDatabaseUtlities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDatabaseUtlities.h; path = Database/DSDatabaseUtlities.h; sourceTree = "<group>"; };
+		17364E1416006FE700323CDA /* DSDatabaseUtlities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSDatabaseUtlities.m; path = Database/DSDatabaseUtlities.m; sourceTree = "<group>"; };
+		17364E16160085B000323CDA /* test.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.db; path = Database/test.db; sourceTree = "<group>"; };
+		17364E18160086F600323CDA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1718BAF116004DE10029B9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17364E19160086F600323CDA /* libsqlite3.0.dylib in Frameworks */,
+				1718BAF916004DE10029B9FC /* UIKit.framework in Frameworks */,
+				1718BAFB16004DE10029B9FC /* Foundation.framework in Frameworks */,
+				1718BAFD16004DE10029B9FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1718BAE916004DE10029B9FC = {
+			isa = PBXGroup;
+			children = (
+				1718BAFE16004DE10029B9FC /* Database Sample */,
+				1718BAF716004DE10029B9FC /* Frameworks */,
+				1718BAF516004DE10029B9FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1718BAF516004DE10029B9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1718BAF416004DE10029B9FC /* Database Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1718BAF716004DE10029B9FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17364E0A16005F6500323CDA /* libsqlite3.dylib */,
+				17364E18160086F600323CDA /* libsqlite3.0.dylib */,
+				1718BAF816004DE10029B9FC /* UIKit.framework */,
+				1718BAFA16004DE10029B9FC /* Foundation.framework */,
+				1718BAFC16004DE10029B9FC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1718BAFE16004DE10029B9FC /* Database Sample */ = {
+			isa = PBXGroup;
+			children = (
+				1718BB0716004DE10029B9FC /* DSAppDelegate.h */,
+				1718BB0816004DE10029B9FC /* DSAppDelegate.m */,
+				1718BB0F16004DE90029B9FC /* Controllers */,
+				17364E0C16006E4D00323CDA /* Database */,
+				1718BAFF16004DE10029B9FC /* Supporting Files */,
+			);
+			path = "Database Sample";
+			sourceTree = "<group>";
+		};
+		1718BAFF16004DE10029B9FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1718BB0016004DE10029B9FC /* Database Sample-Info.plist */,
+				1718BB0116004DE10029B9FC /* InfoPlist.strings */,
+				1718BB0416004DE10029B9FC /* main.m */,
+				1718BB0616004DE10029B9FC /* Database Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1718BB0F16004DE90029B9FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1718BB1016004E190029B9FC /* DSViewController.h */,
+				1718BB1116004E190029B9FC /* DSViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		17364E0C16006E4D00323CDA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				17364E16160085B000323CDA /* test.db */,
+				17364E1316006FE700323CDA /* DSDatabaseUtlities.h */,
+				17364E1416006FE700323CDA /* DSDatabaseUtlities.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1718BAF316004DE10029B9FC /* Database Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1718BB0C16004DE10029B9FC /* Build configuration list for PBXNativeTarget "Database Sample" */;
+			buildPhases = (
+				1718BAF016004DE10029B9FC /* Sources */,
+				1718BAF116004DE10029B9FC /* Frameworks */,
+				1718BAF216004DE10029B9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Database Sample";
+			productName = "Database Sample";
+			productReference = 1718BAF416004DE10029B9FC /* Database Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1718BAEB16004DE10029B9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1718BAEE16004DE10029B9FC /* Build configuration list for PBXProject "Database Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1718BAE916004DE10029B9FC;
+			productRefGroup = 1718BAF516004DE10029B9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1718BAF316004DE10029B9FC /* Database Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1718BAF216004DE10029B9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1718BB0316004DE10029B9FC /* InfoPlist.strings in Resources */,
+				17364E17160085B000323CDA /* test.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1718BAF016004DE10029B9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1718BB0516004DE10029B9FC /* main.m in Sources */,
+				1718BB0916004DE10029B9FC /* DSAppDelegate.m in Sources */,
+				1718BB1216004E190029B9FC /* DSViewController.m in Sources */,
+				17364E1516006FE700323CDA /* DSDatabaseUtlities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1718BB0116004DE10029B9FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1718BB0216004DE10029B9FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1718BB0A16004DE10029B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1718BB0B16004DE10029B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1718BB0D16004DE10029B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Database Sample/Database Sample-Prefix.pch";
+				INFOPLIST_FILE = "Database Sample/Database Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1718BB0E16004DE10029B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Database Sample/Database Sample-Prefix.pch";
+				INFOPLIST_FILE = "Database Sample/Database Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1718BAEE16004DE10029B9FC /* Build configuration list for PBXProject "Database Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1718BB0A16004DE10029B9FC /* Debug */,
+				1718BB0B16004DE10029B9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1718BB0C16004DE10029B9FC /* Build configuration list for PBXNativeTarget "Database Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1718BB0D16004DE10029B9FC /* Debug */,
+				1718BB0E16004DE10029B9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1718BAEB16004DE10029B9FC /* Project object */;
+}
